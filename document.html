@@ -2,36 +2,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Calculator</title>
-    <link rel="stylesheet" href="document.css">
-    <link rel="icon" type="image/png" href="favicon.png">
-</head>
-<body>
-    <div class="calculator">
-        <input type="text" id="display" disabled>
-        <div class="buttons">
-            <button class="operator" onclick="appendToDisplay('/')">/</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button class="operator" onclick="appendToDisplay('*')">*</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button class="operator" onclick="appendToDisplay('-')">-</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button class="operator" onclick="appendToDisplay('+')">+</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button class="clear" onclick="clearDisplay()">C</button>
-            <button class="equal" onclick="calculate()">=</button>
-        </div>
-    </div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- External stylesheet for Font Awesome icons -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- External stylesheet for custom styles -->
+  <link rel="stylesheet" href="document.css">
+  <link rel="icon" type="image/png" href="favicon.png">
 
-    <script src="document.js"></script>
+</head>
+
+<body>
+  <!-- Container to hold the card -->
+  <div class="container">
+    <!-- Card element -->
+    <div class="card">
+      <!-- Content inside the card -->
+      <div class="content">
+        <!-- Profile image -->
+        <div class="img"><img src="dppp.jpg"></div>
+        <!-- Card content (name and role) -->
+        <div class="cardContent">
+          <h3>RISHIKA SINGH SIKARWAR<br><span>Web Developer</span></h3>
+        </div>
+      </div>
+      <!-- Social media icons list -->
+      <ul class="sci">
+        <!-- linkedin icon -->
+        <!-- Apply the value of --i to control animation delay or timing -->
+        <li>
+          <a href="https://www.linkedin.com/in/rishika-singh-sikarwar-8706a4296/?trk=opento_sprofile_details" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+        <!-- Instagram icon -->
+        <li>
+          <a href="https://www.instagram.com/rishika__sikarwar_/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+        <!-- GitHub icon -->
+        <li>
+          <a href="https://github.com/rishikasingh266" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
